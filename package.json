@@ -1,0 +1,23 @@
+{
+  "name": "esbuild-ctor-param-decorator-bug-sample",
+  "version": "0.0.1",
+  "description": "",
+  "author": "m_doi2",
+  "private": true,
+  "scripts": {
+    "start:tsc": "node ./dist/src/main.js",
+    "start:esbuild": "node ./dist_esbuild/main.js",
+    "build": "tsc && node ./scripts/esbuild.js",
+    "clean": "rimraf ./dist && rimraf ./dist_esbuild"
+  },
+  "dependencies": {
+    "inversify": "^5.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "esbuild": "0.8.38",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  }
+}
