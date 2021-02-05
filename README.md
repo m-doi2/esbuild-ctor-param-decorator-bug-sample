@@ -3,6 +3,12 @@
 The build result of the decorator given to the constructor parameters is different between tsc and esbuild(v0.8.38).
 This repository presents an example of using the Inversify.js decorator.
 
+## Caution
+
+This bug has been fixed in esbuild v0.8.40.
+
+https://github.com/evanw/esbuild/issues/734
+
 ## How to use
 
 1. Run `npm install`.
